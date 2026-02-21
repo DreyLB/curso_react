@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Login from './Components/Login/Login';
 
-const App = () => {
+function App() {
   return (
     <div>
       <BrowserRouter>
@@ -19,6 +19,6 @@ const App = () => {
       </BrowserRouter>
     </div>
   );
-};
+}
 
 export default App;
